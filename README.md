@@ -32,6 +32,11 @@ This project uses [Storybook](https://storybook.js.org/) for developing and prev
 ```bash
 npm run storybook
 ```
+To verify the project builds correctly before pushing changes, run:
+```bash
+npm run build
+npm run build-storybook
+```
 
 The deployed Storybook is available via GitHub Pages after commits to `main`.
 
