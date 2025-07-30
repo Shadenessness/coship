@@ -25,6 +25,22 @@ This project uses [Vitest](https://vitest.dev/) for testing. You can run the tes
 npm run test
 ```
 
+## Storybook
+
+This project uses [Storybook](https://storybook.js.org/) for developing and previewing components. Run it locally with:
+
+```bash
+npm run storybook
+```
+To verify the project builds correctly before pushing changes, run:
+```bash
+npm run build
+npm run build-storybook
+```
+
+The deployed Storybook is available via GitHub Pages after commits to `main`.
+
+
 ## Styling
 
 This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
