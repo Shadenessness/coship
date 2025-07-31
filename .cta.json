@@ -2,7 +2,7 @@
   "projectName": "coship",
   "mode": "code-router",
   "typescript": true,
-  "tailwind": true,
+  "tailwind": false,
   "packageManager": "npm",
   "git": true,
   "version": 1,

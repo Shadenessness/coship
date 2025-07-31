@@ -18,7 +18,7 @@ import TanStackQueryLayout from './integrations/tanstack-query/layout.tsx'
 
 import * as TanStackQueryProvider from './integrations/tanstack-query/root-provider.tsx'
 
-import './styles.css'
+import './styles.scss'
 import reportWebVitals from './reportWebVitals.ts'
 
 import App from './App.tsx'

@@ -43,7 +43,7 @@ The deployed Storybook is available via GitHub Pages after commits to `main`.
 
 ## Styling
 
-This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
+This project uses SCSS for styling.
 
 
 ## Linting & Formatting
@@ -176,15 +176,13 @@ From there you need to update your `vite.config.js` file to use the plugin:
 import { defineConfig } from "vite";
 import viteReact from "@vitejs/plugin-react";
 import { TanStackRouterVite } from "@tanstack/router-plugin/vite";
-import tailwindcss from "@tailwindcss/vite";
 
   
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     TanStackRouterVite(),
-    viteReact(),
-    tailwindcss()
+    viteReact()
   ],
 });
 ```
@@ -271,7 +269,7 @@ import { RouterProvider, createRouter } from "@tanstack/react-router";
 // Import the generated route tree
 import { routeTree } from "./routeTree.gen";
 
-import "./styles.css";
+import "./styles.scss";
 import reportWebVitals from "./reportWebVitals.ts";
 
 // Create a new router instance
