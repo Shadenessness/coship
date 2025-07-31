@@ -1,19 +1,12 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import Header from './Header';
-import { BrowserRouter } from '@tanstack/react-router';
+import Header from './Header'
+import type { Meta, StoryObj } from '@storybook/react-vite'
 
 const meta: Meta<typeof Header> = {
-  title: 'Components/Header',
-  component: Header,
-  decorators: [
-    (Story) => (
-      <BrowserRouter>
-        <Story />
-      </BrowserRouter>
-    ),
-  ],
-};
+    title: 'Components/Header',
+    component: Header,
+    decorators: [(Story) => <Story />],
+}
 
-export default meta;
+export default meta
 
-export const Default: StoryObj<typeof Header> = {};
+export const Default: StoryObj<typeof Header> = {}
