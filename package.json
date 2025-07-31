@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "@faker-js/faker": "^9.6.0",
-    "@tailwindcss/vite": "^4.0.6",
     "@tanstack/match-sorter-utils": "^8.19.4",
     "@tanstack/react-query": "^5.66.5",
     "@tanstack/react-query-devtools": "^5.66.5",
@@ -27,7 +26,7 @@
     "@tanstack/store": "^0.7.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwindcss": "^4.0.6"
+    "sass": "^1.89.2"
   },
   "devDependencies": {
     "@storybook/addon-docs": "^9.0.18",
